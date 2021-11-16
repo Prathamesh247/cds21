@@ -1,5 +1,5 @@
 {
-  "name": "Max's Activities Shortcuts",
+  "name": "Activity Shortcuts",
   "short_name": "Activities",
   "start_url": "./?utm_source=pwa",
   "scope": "./",
