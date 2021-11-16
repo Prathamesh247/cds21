@@ -1,0 +1,18 @@
+{
+  "name": "Activity Shortcuts",
+  "short_name": "Activities",
+  "start_url": "./?utm_source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "red",
+  "background_color": "silver",
+  "orientation": "potrait",
+  
+  "icons": [
+    {
+      "src":"icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

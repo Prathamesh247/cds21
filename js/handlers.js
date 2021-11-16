@@ -1,4 +1,3 @@
-
 class ShortcutHandler {
     constructor(defaultIcon, pattern, variables) {
         this.defaultIcon = defaultIcon;
@@ -22,6 +21,7 @@ class ShortcutHandler {
         }
     }
 }
+
 
 let handlers = {
     "link": new ShortcutHandler("public", "$url", ["url"]),
