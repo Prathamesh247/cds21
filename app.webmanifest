@@ -4,15 +4,22 @@
   "start_url": "./?utm_source=pwa",
   "scope": "./",
   "display": "standalone",
-  "theme_color": "green",
+  "theme_color": "red",
   "background_color": "silver",
   "orientation": "portrait",
-
+  "description": "This app helps in giving common shortcuts",
+  
   "icons": [
     {
       "src": "icons/icon-1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
+    },
+    {
+      "src": "icons/maskable_icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

@@ -10,7 +10,11 @@
 
 <script src="js/handlers.js" defer></script>
 <script src="js/app.js" defer></script>
-
+<script>
+   if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register("serviceworker.js")
+   }
+</script>
 <title>Activity Launcher</title>
 
 
@@ -22,3 +26,7 @@
    <a href="https://web.dev/learn/pwa">Web.dev PWA Course</a>
    <a href="about.html">About</a>
 </footer>
+
+<!--
+   Refer firt.dev/cds
+-->
